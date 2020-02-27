@@ -6,9 +6,10 @@ Compatibility with pages written for original Lightbox https://lokeshdhakar.com/
 Use:
 
 in html>head
-  <link rel="stylesheet" href="../lb_style.css">
+  &lt;link rel="stylesheet" href="../lb_style.css"&gt;
   
-<a href="../imgR/3.jpg" data-lightbox="imgR" data-title=""><img src="../imgR/3-200.jpg"></a>
+&lt;a href="../imgR/2.jpg" data-lightbox="imgR" data-title=""&gt;&lt;img src="../imgR/2-200.jpg"&gt;&lt;/a&gt;
+&lt;a href="../imgR/3.jpg" data-lightbox="imgR" data-title=""&gt;&lt;img src="../imgR/3-200.jpg"&gt;&lt;a&gt;
 
 in main.js type="module" :
   import { lb_init } from "./lb.js";
