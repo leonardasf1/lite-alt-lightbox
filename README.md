@@ -1,6 +1,6 @@
 # lite-alt-lightbox
 alternative lightbox
-
+<pre>
 Compatibility with pages written for original Lightbox https://lokeshdhakar.com/projects/lightbox2/ .
 
 Use:
@@ -15,3 +15,4 @@ in main.js type="module" :
   import { lb_init } from "./lb.js";
   
   if (document.querySelector('[data-lightbox]')) lb_init();
+</pre>
